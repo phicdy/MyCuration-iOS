@@ -2,33 +2,32 @@
 //  MyRSSReaderTests.m
 //  MyRSSReaderTests
 //
-//  Created by Keisuke Yamaguchi on 2014/05/16.
-//  Copyright (c) 2014年 Keisuke Yamaguchi. All rights reserved.
+//  Created by phicdy on 2015/06/23.
+//  Copyright (c) 2015年 phicdy All rights reserved.
 //
 
-#import <XCTest/XCTest.h>
+#import <UIKit/UIKit.h>
+#import <KIF/KIF.h>
 
-@interface MyRSSReaderTests : XCTestCase
+@interface MyRSSReaderTests : KIFTestCase
 
 @end
 
 @implementation MyRSSReaderTests
 
-- (void)setUp
+- (void)beforeEach
 {
-    [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
 }
 
-- (void)tearDown
+- (void)afterEach
 {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-    [super tearDown];
 }
 
-- (void)testExample
+- (void)testSample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    [tester tapViewWithAccessibilityLabel:@"Add"];
+    [tester enterTextIntoCurrentFirstResponder:@"http://rss.dailynews.yahoo.co.jp/fc/rss.xml"];
+    [tester tapViewWithAccessibilityLabel:@"OK"];
+    [tester waitForTimeInterval:10];
 }
-
 @end

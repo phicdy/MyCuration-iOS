@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DA04F4E5-4D6A-495F-B364-93675D838406</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MyRSSReader</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1B56F9B3672B5152F7549CF36F6AD01877D5886B</key>
+		<string>https://github.com/phicdy/iOS-RSSReader.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MyRSSReader.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1B56F9B3672B5152F7549CF36F6AD01877D5886B</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/phicdy/iOS-RSSReader.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1B56F9B3672B5152F7549CF36F6AD01877D5886B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B56F9B3672B5152F7549CF36F6AD01877D5886B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOS-RSSReader</string>
+		</dict>
+	</array>
+</dict>
+</plist>
